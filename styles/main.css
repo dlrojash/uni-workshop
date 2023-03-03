@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: system-ui;
+    color: rgb(80, 10, 51);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    margin: 32px 0;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.text {
+    text-align: center;
+    font: 20px;
+    line-height: 28px;
+    width: 520px;
+    color: #666;
+}
+
+.arrows{
+    display:flex;
+    gap: 64px;
+    margin-top: 64px;
+}
+
+.arrow button{
+    background-color: rgb(61, 48, 48);
+}
+   
+.arrows svg{
+    height: 32px;
+    width: 32px;
+}
+
+.arrow-rigth{
+    transform: rotate(180deg);
+}
